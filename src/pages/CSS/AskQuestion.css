@@ -1,0 +1,10 @@
+.AskQuestion {
+  background-color: #f1f2f3;
+}
+.AskQuestionFormDiv {
+  border-radius: 7px;
+}
+.AskQuestionFormDiv input {
+  width: 90%;
+  height: 33px;
+}

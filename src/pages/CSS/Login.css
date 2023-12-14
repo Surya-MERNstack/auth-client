@@ -1,0 +1,84 @@
+.loginBoxDiv {
+  width: 35%;
+  margin: 36%;
+  margin-top: 3%;
+  margin-bottom: 0%;
+}
+.loginForm {
+  border-radius: 4%;
+  width: 75%;
+}
+.loginForm input {
+  border: 1px solid gainsboro;
+  height: 35px;
+}
+.mainLoginDiv {
+  background-color: hsl(210, 8%, 95%);
+}
+.labelFont {
+  font-size: medium;
+  font-weight: 500;
+}
+.logsignwidth {
+  width: 90%;
+}
+.forgrtpasswordlink {
+  font-size: smaller;
+  margin-left: 27%;
+}
+.signupLink {
+  margin-left: 6%;
+  margin-top: 5%;
+  padding-bottom: 28%;
+}
+.loginLogo {
+  margin: 46%;
+  margin-top: 9%;
+  margin-bottom: 0%;
+}
+.visually-hidden {
+  visibility: hidden;
+}
+.visually-true {
+  visibility: visible;
+  color: red;
+  font-size: small;
+}
+@media (min-width: 600px) and (max-width: 830px) {
+  .loginBoxDiv {
+    width: 50%;
+    margin: 30%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+  }
+  .loginForm {
+    border-radius: 4%;
+    width: 100%;
+  }
+  .forgrtpasswordlink {
+    font-size: smaller;
+    margin-left: 18%;
+  }
+}
+.isLoadingLogin {
+  position: fixed;
+  padding-top: 20%;
+  padding-left: 45%;
+  padding-bottom: 40%;
+  padding-right: 55%;
+  background-color: transparent;
+  top: 0;
+}
+
+@media (max-width: 600px) {
+  .loginForm {
+    border-radius: 4%;
+    width: 100%;
+  }
+  .loginBoxDiv {
+    width: 80%;
+    margin: 10%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+  }
+}

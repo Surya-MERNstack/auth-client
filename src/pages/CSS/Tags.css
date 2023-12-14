@@ -1,0 +1,28 @@
+.displaytagsTags {
+  color: hsl(205, 36%, 53%);
+  background-color: hsl(205, 53%, 88%);
+  border-radius: 5px;
+  width: fit-content;
+}
+.TagsDivtags p {
+  font-size: 12px !important;
+}
+.TagsDivtags {
+  border: 1px solid gainsboro;
+}
+.isLoadingTags {
+  color: #fc8019;
+  margin-left: 45%;
+  margin-top: 18% !important;
+}
+@media (max-width: 600px) {
+  .tagdef {
+    margin-right: 0% !important;
+    padding-right: 0% !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 830px) {
+  .TagsDivtags {
+    margin-right: 5% !important;
+  }
+}

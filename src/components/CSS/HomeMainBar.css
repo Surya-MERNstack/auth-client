@@ -1,0 +1,41 @@
+.HomeMainBarDiv {
+  width: 71% !important;
+  margin-right: 0% !important;
+}
+.isLoading {
+  color: #fc8019;
+  margin-left: 35%;
+  margin-top: 18%;
+}
+@media (max-width: 600px) {
+  .HomeMainBarDiv {
+    width: 110% !important;
+  }
+  .HomeMainBarDiv h1 {
+    width: 50% !important;
+    font-size: 24px;
+  }
+  .HomeMainBarDiv a {
+    width: 30% !important;
+    font-size: small;
+    margin-top: 0% !important;
+    margin-left: 10%;
+  }
+}
+@media (min-width: 600px) and (max-width: 830px) {
+  .HomeMainBarDiv {
+    width: 86% !important;
+    margin-right: 0% !important;
+    margin-left: 2% !important;
+  }
+  .HomeMainBarDiv h1 {
+    width: 70% !important;
+    font-size: 24px;
+  }
+  .HomeMainBarDiv a {
+    width: 20% !important;
+    font-size: small;
+    margin-top: 0% !important;
+    margin-left: 10%;
+  }
+}

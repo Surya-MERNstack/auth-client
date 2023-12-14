@@ -1,0 +1,83 @@
+.signinDiv {
+  background-color: hsl(210, 8%, 95%);
+  margin: 0%;
+}
+.mainsigninDiv {
+  padding: 0%;
+}
+.paraSignin {
+  font-weight: 350;
+  margin-top: 13%;
+  padding-left: 18%;
+}
+.paraSignin svg {
+  fill: rgba(0, 132, 255, 0.904);
+}
+.SigninBoxDiv {
+  width: 35%;
+  margin: 20%;
+  margin-top: 3%;
+  margin-bottom: 0%;
+}
+.signinForm {
+  border-radius: 4%;
+  width: 150%;
+}
+.signinForm input {
+  border: 1px solid gainsboro;
+  height: 35px;
+}
+.labelFont {
+  font-size: medium;
+  font-weight: 500;
+}
+.logsignwidth {
+  width: 90%;
+}
+.loginLink {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 17%;
+  padding-bottom: 23%;
+}
+.signinLogo {
+  margin: 60%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+@media (min-width: 600px) and (max-width: 830px) {
+  .SigninBoxDiv {
+    width: 50%;
+    margin: 30%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+  }
+}
+
+@media (max-width: 600px) {
+  .SigninBoxDiv {
+    width: 50%;
+    margin: 30%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+  }
+  .paraSignin {
+    display: none;
+  }
+  .signinForm {
+    border-radius: 4%;
+    width: 350%;
+    margin-left: 15%;
+  }
+  .signinLogo {
+    margin: 150%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+  }
+  .loginLink {
+    width: 250%;
+    margin-top: 5%;
+    margin-left: 55%;
+    padding-bottom: 23%;
+  }
+}

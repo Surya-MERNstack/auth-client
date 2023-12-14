@@ -1,0 +1,10 @@
+.DisplayQuestionMainDiv {
+  width: 71% !important;
+  margin-right: 0% !important;
+}
+.DisplayQuestionDiv {
+  border-bottom: 1px solid gainsboro;
+}
+.askedOnmoment {
+  margin-left: 70%;
+}

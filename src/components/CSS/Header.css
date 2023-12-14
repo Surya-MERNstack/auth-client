@@ -1,0 +1,96 @@
+.headerbar {
+  background-color: white !important;
+  border-bottom: 0.5px solid gainsboro;
+  border-top: 3px solid #fc8019;
+  
+}
+.form-control {
+  width: 330% !important;
+  
+}
+.loginbtn {
+  background-color: #e7f8fe;
+  color: blue;
+}
+.headerLogo {
+  padding-bottom: 10px;
+  padding-top: 0px;
+  
+}
+
+.headerFormButton {
+  display: flex;
+  width: 100%;
+  gap: 5rem;
+  justify-content: flex-end;
+}
+
+@media (min-width: 600px) and (max-width: 830px) {
+  .form-control {
+    width: 90% !important;
+  }
+  .loginbtn {
+    margin: 0% !important;
+    margin-right: 10px !important;
+    font-size: small;
+  }
+  .signinbtn {
+    margin: 0% !important;
+    font-size: small;
+  }
+  .logavatar {
+    margin-right: 13px !important;
+  }
+}
+@media (max-width: 600px) {
+  .headerbar {
+    height: 60px;
+    padding: 0px;
+    font-size: 11px;
+  }
+  .headerbar ul {
+    width: 190px;
+    flex-direction: row;
+  }
+  .headerbar .container-fluid {
+    padding: 0px;
+  }
+  .headerbar img {
+    height: 11px;
+    padding-top: 0px !important;
+    padding-bottom: 1px !important;
+  }
+  .headerbar input {
+    width: 100% !important;
+  }
+  .headerFormButton {
+    margin-right: 2px !important;
+  }
+  .headerFormButton button {
+    margin-left: 5px !important;
+    font-size: smaller;
+  }
+  .headerLogo {
+    margin: 0% !important;
+    margin-left: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 10px !important;
+  }
+  .signinbtn {
+    margin-right: 0% !important;
+  }
+  .searchBarHeader {
+    margin-left: 0% !important;
+  }
+  .ProductsHeader {
+    display: none;
+  }
+  .AboutHeader {
+    display: none;
+  }
+  .leftsideHomeNavBarbtn { 
+    width: 10%;
+    height: 40px;
+  }
+}

@@ -1,0 +1,15 @@
+.EditProfilebtn {
+  width: 10%;
+  float: right;
+}
+.EditProfileForm input {
+  width: 90%;
+  height: 45px;
+}
+.EditProfileForm button {
+  width: 90%;
+  height: 45px;
+}
+.AvatarUserDetails {
+  height: 100px !important;
+}
