@@ -15,9 +15,9 @@ import Header from "./components/Header";
 function Routing() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/signin" element={<Signin />} />
+      <Route path="/" element={<Signin />} />
       {/* <Route path="/questions" element={<Questions />} />
       <Route path="/question/ask" element={<AskQuestion />} />
       <Route path="/question/details/:id" element={<QuestionDetails />} />

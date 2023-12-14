@@ -48,7 +48,7 @@ function Login() {
       });
     } else if (response?.status) {
       dispatch(currentUserActions());
-      navigate("/");
+      navigate("/home");
       window.location.reload();
     }
     setIsLoading(false);
@@ -113,7 +113,7 @@ function Login() {
           </form>
           <p className="signupLink">
             Don’t have an account?
-            <Link className="text-decoration-none" to={`/signin`}>
+            <Link className="text-decoration-none" to={`/`}>
               {" "}
               Sign up
             </Link>
